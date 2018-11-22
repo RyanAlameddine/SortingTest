@@ -1,13 +1,13 @@
 # SortingTest
    <body class="c17">
       <p class="c2"><span class="c1">Ryan Alameddine, Nolan Costin, Andrew Zerby</span></p>
-      <p class="c2"><span>Selected Bio project:</span><sup><a href="#cmnt1" id="cmnt_ref1">[a]</a></sup></p>
+      <p class="c2"><span>Selected Bio project:</span></p>
       <p class="c2 c3"><span class="c12"></span></p>
-      <p class="c2"><span class="c13">Question:</span><span>&nbsp;</span><span>What is the most efficient (in terms of speed) sorting algorithm?</span><sup><a href="#cmnt2" id="cmnt_ref2">[b]</a></sup></p>
+      <p class="c2"><span class="c13">Question:</span><span>&nbsp;</span><span>What is the most efficient (in terms of speed) sorting algorithm?</span></p>
       <p class="c2 c3"><span class="c12"></span></p>
       <p class="c2"><span class="c13">Background:</span><span class="c1">&nbsp;When creating a computer program, you often need to sort a large list of items into a specific order. However, in some applications, such as games or network protocols, memory efficiency and speed is vital to the success of the application. Because of this, various computer scientists and mathematicians have developed a variety of algorithms for sorting sets of data. However, it can be hard to know which ones are actually going to perform better in specific situations, so doing these tests could be very beneficial.</span></p>
       <p class="c2 c3"><span class="c12"></span></p>
-      <p class="c2"><span class="c13">Possible Algorithms:</span><span>&nbsp;</span><sup><a href="#cmnt3" id="cmnt_ref3">[c]</a></sup></p>
+      <p class="c2"><span class="c13">Possible Algorithms:</span><span>&nbsp;</span></p>
       <ul class="c6 lst-kix_tfayriz6hkuf-0 start">
          <li class="c2 c9"><span class="c12">Quicksort</span></li>
       </ul>
@@ -289,47 +289,13 @@
       <p class="c2 c3"><span class="c12"></span></p>
       <p class="c2"><span class="c13">Materials: </span><span class="c1">Computer</span></p>
       <p class="c2 c3"><span class="c12"></span></p>
-      <p class="c2"><span class="c13">Procedure summary:</span><span>&nbsp;Create a C# program in which the computer generates 1000 random numbers between 0 and 1000 </span><span class="c14">inclusive </span><span>(duplicates are not prohibited). Then, </span><span>run multiple the test set </span><sup><a href="#cmnt4" id="cmnt_ref4">[d]</a></sup><span>through multiple sorting algorithms and </span><span>record time elapsed</span><sup><a href="#cmnt5" id="cmnt_ref5">[e]</a></sup><span class="c1">. The program will then repeat this process 1000 times, and record output data in chart.</span></p>
+      <p class="c2"><span class="c13">Procedure summary:</span><span>&nbsp;Create a C# program in which the computer generates 1000 random numbers between 0 and 1000 </span><span class="c14">inclusive </span><span>(duplicates are not prohibited). Then, </span><span>run multiple the test set </span><span>through multiple sorting algorithms and </span><span>record time elapsed</span><span class="c1">. The program will then repeat this process 1000 times, and record output data in chart.</span></p>
       <p class="c2 c3"><span class="c12"></span></p>
-      <p class="c2"><span class="c13">Hypothesis: </span><span>Heapsort and Mergesort </span><span>will tie for the highest speed efficiency, because their best and worst case performance is O(n log n).</span><sup><a href="#cmnt6" id="cmnt_ref6">[f]</a></sup>
+      <p class="c2"><span class="c13">Hypothesis: </span><span>Heapsort and Mergesort </span><span>will tie for the highest speed efficiency, because their best and worst case performance is O(n log n).</span>
       <hr style="page-break-before:always;display:none;">
       </p>
       <p class="c2 c3"><span class="c1"></span></p>
       <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span>BIO</span><sup><a href="#cmnt7" id="cmnt_ref7">[g]</a></sup><span>&nbsp;INDEPENDENT PROJECT</span><sup><a href="#cmnt8" id="cmnt_ref8">[h]</a></sup><span class="c1">&nbsp;</span></p>
-      <p class="c18"><span class="c1">Nolan. Ryan, Andrew</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">Question 1:</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">How does temperature affect the breaking point of glass?</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">Background: Glass can break for different reasons. As temperature shifts dramatically the expected result is a crack in the glass. This is because the temperature change, if large enough could cause the molecules to either expand or contract, resulting in a break. According to libanswers.org the temp change causes the crack, not the temperature itself.</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">Methods: We will get multiple glasses and try to get them to break at different temperatures. We will also have a control </span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span>Materials: </span><span>Pint glasses, freezer, tea kettle, heat source, liquid nitrogen</span><sup><a href="#cmnt9" id="cmnt_ref9">[i]</a></sup></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">Hypothesis: The greater the temperature change, the more likely the glass is to break.</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">Question 2: How does pH of water affect mating behavior in fish?</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span>Background: Certain </span><span>fish species</span><sup><a href="#cmnt10" id="cmnt_ref10">[j]</a></sup><span class="c1">&nbsp;have different optimal pHs for survival. pH affects many factors in water, including metal solubility. Certain metals may be toxic to fish and measuring pH levels in fish habitats is a method used to measure pollution in the habitat. These toxic metals could mess with the behavior of the fish, and therefore how they mate. </span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span>Method: We will have one tank with an optimal pH and </span><span>4 fish</span><sup><a href="#cmnt11" id="cmnt_ref11">[k]</a></sup><span>, two of each sex, and two tanks that are the same except one tank has </span><span>too high of a pH and one tank has too low of a pH.</span><sup><a href="#cmnt12" id="cmnt_ref12">[l]</a></sup></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">Materials: Tank, water, substances to control pH level, and fish.</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">Hypothesis: The alkaline tank will decrease the amount of mating the most in the fish tank.</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">Question 3: What is the most efficient (in terms of speed) sorting algorithm?</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">Background: When creating a computer program, you often need to sort a large list of items into a specific order. However, in some applications, such as games or network protocols, memory efficiency and speed is vital to the success of the application. Because of this, various computer scientists and mathematicians have developed a variety of algorithms for sorting sets of data. However, it can be hard to know which ones are actually going to perform better in specific situations, so doing these tests could be very beneficial.</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">Materials: Computer</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span>Procedure summary: Create a C# program in which the computer generates 1000 random numbers between 0 and 1000 </span><span class="c14">inclusive </span><span>(duplicates are not prohibited). Then, run multiple the test set</span><span>&nbsp;through multiple sorting algorithms </span><sup><a href="#cmnt13" id="cmnt_ref13">[m]</a></sup><span class="c1">and record time elapsed. The program will then repeat this process 1000 times, and record output data in chart.</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">Possible Algorithms: Quicksort, Mergesort, Bubble Sort, Insertion Sort, Heapsort, Counting sort</span></p>
-      <p class="c2 c3"><span class="c1"></span></p>
-      <p class="c2"><span class="c1">Hypothesis: Heapsort and Mergesort will tie for the highest speed efficiency, because their worst case performance is O(n log n).</span></p>
+      <p class="c2"><span>BIO</span><span>&nbsp;INDEPENDENT PROJECT</span><span class="c1">&nbsp;</span></p>
+
    </body>
