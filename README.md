@@ -1,6 +1,7 @@
 # SortingTest
    <body class="c17">
-      <p class="c2"><span class="c1">Ryan Alameddine, Nolan Costin, Andrew Zerby</span></p>
+      <p class="c2"><span class="c1">Idea by: Ryan Alameddine, Nolan Costin, Andrew Zerby</span></p>
+      <p class="c2"><span class="c1">Programmed by: Ryan Alameddine</span></p>
       <p class="c2"><span>Selected Bio project:</span></p>
       <p class="c2 c3"><span class="c12"></span></p>
       <p class="c2"><span class="c13">Question:</span><span>&nbsp;</span><span>What is the most efficient (in terms of speed) sorting algorithm?</span></p>
@@ -8,6 +9,7 @@
       <p class="c2"><span class="c13">Background:</span><span class="c1">&nbsp;When creating a computer program, you often need to sort a large list of items into a specific order. However, in some applications, such as games or network protocols, memory efficiency and speed is vital to the success of the application. Because of this, various computer scientists and mathematicians have developed a variety of algorithms for sorting sets of data. However, it can be hard to know which ones are actually going to perform better in specific situations, so doing these tests could be very beneficial.</span></p>
       <p class="c2 c3"><span class="c12"></span></p>
       <p class="c2"><span class="c13">Possible Algorithms:</span><span>&nbsp;</span></p>
+   <hr style="page-break-before:always;display:none;">
       <ul class="c6 lst-kix_tfayriz6hkuf-0 start">
          <li class="c2 c9"><span class="c12">Quicksort</span></li>
       </ul>
@@ -55,6 +57,7 @@
       <ul class="c6 lst-kix_tfayriz6hkuf-1">
          <li class="c2 c10"><span>Source: </span><span class="c16"><a class="c15" href="https://www.google.com/url?q=https://web.stanford.edu/class/archive/cs/cs339/cs339.2002/qsort.pdf&amp;sa=D&amp;ust=1542933304349000">https://web.stanford.edu/class/archive/cs/cs339/cs339.2002/qsort.pdf</a></span></li>
       </ul>
+   <hr style="page-break-before:always;display:none;">
       <ul class="c6 lst-kix_tfayriz6hkuf-0">
          <li class="c2 c9"><span class="c12">Mergesort</span></li>
       </ul>
@@ -102,6 +105,7 @@
       <ul class="c6 lst-kix_tfayriz6hkuf-1">
          <li class="c2 c10"><span>Source: </span><span class="c16"><a class="c15" href="https://www.google.com/url?q=https://pdfs.semanticscholar.org/6804/987ab63d1879aa55ba68224dced142ce8774.pdf&amp;sa=D&amp;ust=1542933304355000">https://pdfs.semanticscholar.org/6804/987ab63d1879aa55ba68224dced142ce8774.pdf</a></span></li>
       </ul>
+   <hr style="page-break-before:always;display:none;">
       <ul class="c6 lst-kix_tfayriz6hkuf-0">
          <li class="c2 c9"><span class="c12">Bubble Sort</span></li>
       </ul>
@@ -151,6 +155,7 @@
       <ul class="c6 lst-kix_tfayriz6hkuf-1">
          <li class="c2 c10"><span>Source: </span><span class="c16"><a class="c15" href="https://www.google.com/url?q=https://users.cs.duke.edu/~ola/bubble/bubble.pdf&amp;sa=D&amp;ust=1542933304360000">https://users.cs.duke.edu/~ola/bubble/bubble.pdf</a></span><span class="c1">&nbsp;</span></li>
       </ul>
+   <hr style="page-break-before:always;display:none;">
       <ul class="c6 lst-kix_tfayriz6hkuf-0">
          <li class="c2 c9"><span class="c12">Insertion Sort</span></li>
       </ul>
@@ -199,6 +204,7 @@
       <ul class="c6 lst-kix_tfayriz6hkuf-1">
          <li class="c2 c10"><span>Source: </span><span class="c16"><a class="c15" href="https://www.google.com/url?q=https://www.irjet.net/archives/V3/i12/IRJET-V3I12115.pdf&amp;sa=D&amp;ust=1542933304365000">https://www.irjet.net/archives/V3/i12/IRJET-V3I12115.pdf</a></span><span>&nbsp;</span></li>
       </ul>
+   <hr style="page-break-before:always;display:none;">
       <ul class="c6 lst-kix_tfayriz6hkuf-0">
          <li class="c2 c9"><span class="c12">Heapsort</span></li>
       </ul>
@@ -241,6 +247,7 @@
       <ul class="c6 lst-kix_tfayriz6hkuf-1">
          <li class="c2 c10"><span>Source: </span><span class="c16"><a class="c15" href="https://www.google.com/url?q=https://file.scirp.org/pdf/JCC_2017102715100595.pdf&amp;sa=D&amp;ust=1542933304369000">https://file.scirp.org/pdf/JCC_2017102715100595.pdf</a></span><span class="c1">&nbsp;</span></li>
       </ul>
+   <hr style="page-break-before:always;display:none;">
       <ul class="c6 lst-kix_tfayriz6hkuf-0">
          <li class="c2 c9"><span class="c12">Selection sort</span></li>
       </ul>
