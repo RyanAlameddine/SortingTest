@@ -15,7 +15,7 @@ namespace SortingTest
             long[] elapsedTimes = new long[6];
             for(int i = 0; i < testCount; i++)
             {
-                double[][] arrays = Sorter.GenerateArrays(random, 6, numsPerTest);
+                int[][] arrays = Sorter.GenerateArrays(random, 6, numsPerTest);
 
 
                 var watch = System.Diagnostics.Stopwatch.StartNew();

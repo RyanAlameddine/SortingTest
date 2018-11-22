@@ -13,18 +13,18 @@ namespace SortingTest
         /// <param name="count"></param>
         /// <param name="numsPerTest"></param>
         /// <returns></returns>
-        public static double[][] GenerateArrays(Random random, int count, int numsPerTest)
+        public static int[][] GenerateArrays(Random random, int count, int numsPerTest)
         {
-            double[][] arrays = new double[count][];
+            int[][] arrays = new int[count][];
 
-            arrays[0] = new double[numsPerTest];
+            arrays[0] = new int[numsPerTest];
             for(int j = 0; j < numsPerTest; j++)
             {
                 arrays[0][j] = random.Next(Program.minmax.min, Program.minmax.max);
             }
             for(int i = 1; i < count; i++)
             {
-                arrays[i] = new double[numsPerTest];
+                arrays[i] = new int[numsPerTest];
                 for (int j = 0; j < numsPerTest; j++)
                 {
                     arrays[i][j] = arrays[0][j];
