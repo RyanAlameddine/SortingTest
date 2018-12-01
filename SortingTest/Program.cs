@@ -12,35 +12,43 @@ namespace SortingTest
         static void Main(string[] args)
         {
             //Quick, Merge, Bubble, Insertion, Heap, Selection
-            long[] elapsedTimes = new long[6];
+            long[,] elapsedTimes = new long[6, testCount];
             for(int i = 0; i < testCount; i++)
             {
                 int[][] arrays = Sorter.GenerateArrays(random, 6, numsPerTest);
 
 
                 var watch = System.Diagnostics.Stopwatch.StartNew();
+
+                watch.Start();
                 //Quick
-                watch.Stop(); elapsedTimes[0] += watch.ElapsedMilliseconds;
+                Sorter.QuickSort(arrays[0]);
+                watch.Stop(); elapsedTimes[0, i] = watch.ElapsedTicks;
 
                 watch.Restart();
                 //Merge
-                watch.Stop(); elapsedTimes[1] += watch.ElapsedMilliseconds;
+                arrays[1] = Sorter.MergeSort(arrays[1]);
+                watch.Stop(); elapsedTimes[1, i] = watch.ElapsedTicks;
 
                 watch.Restart();
                 //Bubble
-                watch.Stop(); elapsedTimes[2] += watch.ElapsedMilliseconds;
+                Sorter.BubbleSort(arrays[2]);
+                watch.Stop(); elapsedTimes[2, i] = watch.ElapsedTicks;
 
                 watch.Restart();
                 //Insertion
-                watch.Stop(); elapsedTimes[3] += watch.ElapsedMilliseconds;
+                Sorter.InsertionSort(arrays[3]);
+                watch.Stop(); elapsedTimes[3, i] = watch.ElapsedTicks;
 
                 watch.Restart();
                 //Heap
-                watch.Stop(); elapsedTimes[4] += watch.ElapsedMilliseconds;
+                Sorter.HeapSort(arrays[4]);
+                watch.Stop(); elapsedTimes[4, i] = watch.ElapsedTicks;
 
                 watch.Restart();
                 //Selection
-                watch.Stop(); elapsedTimes[5] += watch.ElapsedMilliseconds;
+                Sorter.SelectionSort(arrays[5]);
+                watch.Stop(); elapsedTimes[5, i] = watch.ElapsedTicks;
             }
         }
     }
