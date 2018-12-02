@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace SortingTest
 {
@@ -49,6 +50,23 @@ namespace SortingTest
                 //Selection
                 Sorter.SelectionSort(arrays[5]);
                 watch.Stop(); elapsedTimes[5, i] = watch.ElapsedTicks;
+            }
+
+            //Done with test
+            //Recording data in csv file:
+
+            File.Delete(Path.Combine(Directory.GetCurrentDirectory(), "output.csv"));
+            using (System.IO.StreamWriter file =
+            new System.IO.StreamWriter(Path.Combine(Directory.GetCurrentDirectory(), "output.csv"), true))
+            {
+                for (int j = 0; j < elapsedTimes.GetLength(1); j++)
+                {
+                    for (int i = 0; i < elapsedTimes.GetLength(0); i++)
+                    {
+                        file.Write(elapsedTimes[i, j] + ", ");
+                    }
+                    file.WriteLine();
+                }
             }
         }
     }
